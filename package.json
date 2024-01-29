@@ -6,6 +6,7 @@
   "type": "module",
   "module": "dist/index.js",
   "types": "dist/types/index.d.ts",
+  "packageManager": "pnpm@8.6.12",
   "scripts": {
     "copy:package.cjs.json": "pnpm ncp ./package.cjs.json ./dist/cjs/package.json && pnpm ncp ./package.cjs.json ./dist/types/package.json ",
     "clean": "rimraf dist",

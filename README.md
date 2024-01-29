@@ -5,10 +5,10 @@ A reverse engineering library that simulates deployment links in [Cloudflare Wor
 ## Installation
 
 ```bash
+# use npm
 npm install cf-worker-deployer
-```
 
-```bash
+# use pnpm
 pnpm install cf-worker-deployer
 ```
 

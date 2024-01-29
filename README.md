@@ -6,7 +6,3 @@ A reverse engineering library that simulates deployment links in [Cloudflare Wor
 
 - [moons-14](https://github.com/moons-14)
 
-
-### LICENCE
-
-MIT

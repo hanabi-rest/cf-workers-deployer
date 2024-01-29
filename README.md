@@ -1,4 +1,4 @@
-# CF Worker Deployer
+# cf-workers-deployer
 
 A reverse engineering library that simulates deployment links in [Cloudflare Workers Playground](https://workers.new).
 
@@ -6,10 +6,10 @@ A reverse engineering library that simulates deployment links in [Cloudflare Wor
 
 ```bash
 # use npm
-npm install cf-worker-deployer
+npm install cf-workers-deployer
 
 # use pnpm
-pnpm install cf-worker-deployer
+pnpm install cf-workers-deployer
 ```
 
 ## Usage

@@ -42,7 +42,13 @@ export async function compressFile({ fileData, mainModule }: CompressFile): Prom
 	);
 }
 
-export async function getDeployUrl({ fileData, mainModule }: CompressFile): Promise<string> {
+export async function getDeployUrl({
+	fileData,
+	mainModule,
+	projectName = "workers-playground",
+}: CompressFile & { projectName?: string }): Promise<string> {
 	const compressedFile = await compressFile({ fileData, mainModule });
-	return `https://dash.cloudflare.com/workers-and-pages/deploy/playground/workers-playground#${compressedFile}`;
+	return `https://dash.cloudflare.com/workers-and-pages/deploy/playground/${encodeURIComponent(
+		projectName,
+	)}#${compressedFile}`;
 }

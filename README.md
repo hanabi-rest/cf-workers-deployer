@@ -15,7 +15,7 @@ pnpm install cf-workers-deployer
 ## Usage
 
 ```typescript
-import { CompressFile, getDeployUrl } from 'cf-workers-deployer';
+import { compressFile, getDeployUrl } from 'cf-workers-deployer';
 
 const compressedFiles = compressFile({
     fileData:[

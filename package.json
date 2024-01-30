@@ -1,6 +1,6 @@
 {
   "name": "cf-workers-deployer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A reverse engineering library that simulates deployment links in Cloudflare Workers Playground",
   "main": "dist/cjs/index.js",
   "type": "module",

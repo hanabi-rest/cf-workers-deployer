@@ -22,7 +22,7 @@ const compressedFiles = compressFile({
         {
             "name": "index.js", // File Name
             "fileName": "index.js", // File path
-            "data": "console.log('Hello World')". // File Data
+            "data": "console.log('Hello World')", // File Data
             "type": "text/javascript" // Content Type
         }
     ],
